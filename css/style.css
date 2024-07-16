@@ -12,8 +12,8 @@
 }
 
 :root{
-    --bg-color:    /*#1A2031;  linear-gradient(43deg, #4 0%, #1a2031 46%, #FFCC70 100%); */  rgb(26,32,49);
-    --second-bg-color: /*#1c2028; #4158D0; */ linear-gradient(158deg, rgba(26,32,49,1) 39%, rgba(253,29,29,1) 100%);
+    --second-bg-color:    /*#1A2031;  linear-gradient(43deg, #4 0%, #1a2031 46%, #FFCC70 100%); */  rgb(26,32,49);
+    --bg-color: /*#1c2028; #4158D0; */ linear-gradient(158deg, rgba(26,32,49,1) 39%, rgba(253,29,29,1) 100%);
     --text-color: #fff;
     --main-color: #24ddf8;
     --third-color: #00ffaa;
