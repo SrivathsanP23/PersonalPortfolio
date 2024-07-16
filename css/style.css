@@ -12,13 +12,14 @@
 }
 
 :root{
-    --bg-color:  #1A2031;
-    --second-bg-color: #1c2028;
+    --bg-color:  #4158D0;  /*#1A2031;*/
+    --second-bg-color: /*#1c2028;*/ linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     --text-color: #fff;
     --main-color: #24ddf8;
     --third-color: #00ffaa;
     --edu-color: #00ffee;
 }
+
 
 html {
     font-size: 62.5%;
