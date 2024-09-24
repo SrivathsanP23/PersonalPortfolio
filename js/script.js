@@ -75,7 +75,7 @@ ScrollReveal().reveal('.education-title',{ origin: 'right' });
 
 
 const typed = new Typed('.multiple-text',{
-    strings: ['Web Developer', 'Data Analyst' , 'Java Programmer'],
+    strings: ['Web Developer', 'Data Analyst'],
     typeSpeed: 130,
     backSpeed: 90,
     backDelay: 1000,
