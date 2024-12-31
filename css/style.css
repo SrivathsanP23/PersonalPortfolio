@@ -88,14 +88,18 @@ section {
     font-size: 3.6rem;
     color: var(--text-color);
     display: none;
+    left:0;
 }
+
+
 
 /* ------home section------ */
 
+
 .home {
     display: flex;
-    justify-content: center;
-    align-items: center;    
+    justify-content: space-evenly;
+    align-items: center;
     width: 100%;
 }
 
@@ -193,12 +197,12 @@ span {
     background-color: var(--second-bg-color);
 }
 
-.home-img img{
+.home-img img {
     width: 20vw;
     animation: floatImage 4s ease-in-out infinite;
     border-radius: 30px;
     border: 2px dotted #b8332c;
-    
+
 }
 
 
@@ -268,7 +272,7 @@ span {
 }
 
 .timeline-items {
-    max-width: 1350px;
+    max-width: 1400px;
     margin: auto;
     display: flex;
     position: relative;
@@ -804,7 +808,7 @@ span {
     }
 
     .timeline-items::before {
-        left: 7px;
+        left: 5px;
     }
 
     .timeline-item:nth-child(odd) {
@@ -814,13 +818,32 @@ span {
 
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
-        padding-left: 37px;
+        padding-left: 35px;
     }
 
     .timeline-dot {
         left: 0;
     }
 
+    /*  */
+
+    .exptimeline-items::before {
+        left: 5px;
+    }
+
+    .extimeline-item:nth-child(odd) {
+        padding-right: 0;
+        text-align: left;
+    }
+
+    .extimeline-item:nth-child(odd),
+    .extimeline-item:nth-child(even) {
+        padding-left: 35px;
+    }
+
+    .extimeline-dot {
+        left: 0;
+    }
 
 }
 
@@ -831,8 +854,11 @@ span {
 
 @media (max-width: 768px) {
     #menu-icon {
-        display: block;
+        display:flex;
+        justify-content: center;
+
     }
+
 
     .navbar {
         position: absolute;
@@ -887,12 +913,12 @@ span {
     /* home content over */
 
     .about {
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .about img {
-        width: 40vw;
-        margin-top: 4rem;
+        width: 35vw;
+        margin-top: 3rem;
     }
 
 
@@ -905,6 +931,9 @@ span {
 
 
     /* services over */
+
+
+    
 
     .portfolio h2 {
         margin-bottom: 3rem;
@@ -949,7 +978,7 @@ span {
     }
 
     .about-img img {
-        width: 90vw;
+        width: 50vw;
     }
 
     .footer .end {
