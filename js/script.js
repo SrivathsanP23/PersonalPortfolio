@@ -48,9 +48,9 @@ window.onscroll = () => {
 /*==================== scroll reveal ====================*/
 ScrollReveal({
     // reset: true,
-    distance: '90px',
+    distance: '100px',
     duration: 3000,
-    delay: 100
+    delay: 0
 });
 
 ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
@@ -59,9 +59,9 @@ ScrollReveal().reveal('.services-container, .portfolio-box', { origin: 'bottom' 
 
 ScrollReveal().reveal('.home-content h1, .home-img', { origin: 'left' });
 
-ScrollReveal().reveal('.home-content p, .about-content,.experience .heading ', { origin: 'right' });
+ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
-ScrollReveal().reveal('.education .heading', { origin: 'left' });
+ScrollReveal().reveal('.education .heading, .experience .heading ', { origin: 'left' });
 
 ScrollReveal().reveal('.timeline-item , .extimeline-item', { origin: 'bottom' });
 
